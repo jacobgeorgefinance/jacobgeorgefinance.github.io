@@ -60,3 +60,9 @@ a:focus-visible{outline:3px solid #a382ce;outline-offset:5px}
 @media(max-width:700px){.about-layout,.outside-layout{display:flex;flex-direction:column;gap:25px}.portrait{order:-1;width:min(100%,270px)}.personal-photos{display:grid;grid-template-columns:1fr 1fr;max-width:none;width:100%;gap:14px}.outside-copy p:last-child{margin-bottom:0}.portrait img{width:100%}}
 
 .writing + .writing{margin-top:24px}
+
+.essay{max-width:720px;margin:0 auto}
+.essay-back,.essay article a{color:var(--accent);text-decoration:underline;text-underline-offset:.16em}
+.essay h1{font-size:clamp(2rem,5vw,2.7rem);font-weight:600;line-height:1.15;letter-spacing:-.035em;margin:.55em 0 .3em}
+.essay .essay-meta{color:var(--muted);font-size:.9rem;margin:0 0 1.65rem}
+.essay article p{overflow-wrap:anywhere}
