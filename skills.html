@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python Skills | Jacob George</title>
+  <meta name="description" content="The NBA fantasy draft simulator I wrote in Python for AP Computer Science Principles.">
+  <link rel="stylesheet" href="style.css?v=skills-1">
+</head>
+<body>
+<div class="site">
+  <header><a class="name" href="index.html">Jacob George</a><p class="school">NYU Stern School of Business</p><nav aria-label="Main navigation"><a href="index.html">Finance</a><a href="about.html">About</a><a href="outside-class.html">Outside Class</a><a href="skills.html" aria-current="page">Skills</a></nav></header>
+  <main>
+    <h1 class="sr-only">Skills</h1>
+    <nav class="finance-tabs" aria-label="Skill categories"><a href="skills.html" aria-current="page">Python</a><a href="skills-financial-markets.html">Financial Markets</a><a href="skills-accounting.html">Accounting</a></nav>
+    <article class="skill-card skill-project">
+  <div>
+    <p class="skill-context">AP Computer Science Principles · 2024</p>
+    <h2>NBA Fantasy Draft Simulator</h2>
+    <p>I built a command-line draft for my AP Computer Science Principles class. Teams choose from a pool of 100 NBA players, and the program checks for duplicate positions while building a lineup. Once the teams are drafted, it simulates a matchup by varying each player’s score around their projected points.</p>
+    <div class="skill-links">
+      <a href="https://github.com/jacobgeorgefinance/jacobgeorgefinance.github.io/blob/main/projects/NBA_Fantasy_Draft.py">View source on GitHub</a>
+      <a href="projects/NBA_Fantasy_Draft.py" download>Download Python file</a>
+    </div>
+  </div>
+  <figure class="skill-code">
+    <figcaption>How the program stores a player</figcaption>
+    <pre><code>class Player:
+    def __init__(self, name, position, projected_points):
+        self.name = name
+        self.position = position
+        self.projected_points = projected_points</code></pre>
+  </figure>
+</article>
+  </main>
+</div>
+</body>
+</html>
